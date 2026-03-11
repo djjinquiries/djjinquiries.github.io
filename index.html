@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Darren "JJ" Jenkins-Johnston | Actor Portfolio</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+
+<style>
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+}
+.hero h1 {
+  font-size: 3rem;
+}
+
+/* Headshots: 3 equal columns */
+.headshots-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.headshots-grid figure {
+  margin: 0;
+}
+.headshots-grid img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+.headshots-grid figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Horizontal scroll gallery */
+.scroll-gallery {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-gallery::-webkit-scrollbar {
+  height: 6px;
+}
+.scroll-gallery::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 3px;
+}
+.scroll-gallery::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 3px;
+}
+.scroll-gallery figure {
+  flex: 0 0 auto;
+  width: 280px;
+  margin: 0;
+  scroll-snap-align: start;
+}
+.scroll-gallery img {
+  width: 280px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+.scroll-gallery figcaption {
+  text-align: center;
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Video */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Resume link box */
+.resume-link-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+}
+.resume-link-box div p {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+.resume-link-box a {
+  white-space: nowrap;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 3rem;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="container-fluid">
+  <ul>
+    <li><strong>Darren "JJ" Jenkins-Johnston</strong></li>
+  </ul>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#headshots">Headshots</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#reel">Latest Work</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact" role="button">Contact</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <hgroup>
+      <h1>Darren "JJ" Jenkins-Johnston</h1>
+      <h3>Actor • Comedian • Filmmaker</h3>
+    </hgroup>
+    <p>
+      Based in Washington, D.C. and Chicago, IL.   
+    </p>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <hgroup>
+      <h2>About Me</h2>
+    </hgroup>
+    <p>
+      Darren "JJ" Jenkins-Johnston is an actor, singer, and emerging filmmaker based in Washington, D.C. and Chicago, IL.
+      He brings grounded intensity, humor, and natural charisma to every role
+      across stage and screen.
+    </p>
+    <p>
+      Currently pursuing a BA in Theatre with a Minor in Film &amp; Media Studies at Northwestern University (Dean's List,
+      6 consecutive quarters), JJ has also earned Technical Diplomas in Filmmaking and Acting for Film from the
+      Prague Film School. His credits include originating the role of Jarred Litke in <em>TikTok (a period piece)</em>
+      at Round House Theatre, and playing Ben in the feature film <em>Thankskilling Day</em> (Bontonfilm, 2026).
+    </p>
+    <p>
+      Beyond acting, JJ enjoys taking long walks, soccer, good food, and spending time with loved ones.
+    </p>
+    <p>
+      <strong>Height:</strong> 6'2 &nbsp;|&nbsp;
+      <strong>Eyes:</strong> Brown &nbsp;|&nbsp;
+      <strong>Voice:</strong> Baritone-Bass &nbsp;|&nbsp;
+      <strong>IMDB:</strong> <a href="https://www.imdb.com/name/nm17082576/" target="_blank">Darren Jenkins-Johnston</a> &nbsp;|&nbsp;
+      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/darren-jj-jenkins-johnston-56492a2a0/" target="_blank">Darren Jenkins-Johnston</a>
+    </p>
+  </section>
+
+  <!-- HEADSHOTS -->
+  <section id="headshots">
+    <h2>Headshots</h2>
+    <div class="headshots-grid">
+
+      <figure>
+        <img src="jj-headshot-1.jpeg" alt="Darren JJ Jenkins-Johnston headshot">
+      </figure>
+
+      <figure>
+        <img src="jj-headshot-2.jpeg" alt="Darren JJ Jenkins-Johnston headshot">
+      </figure>
+
+      <figure>
+        <img src="jj-headshot-3.jpeg" alt="Darren JJ Jenkins-Johnston headshot">
+      </figure>
+
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="scroll-gallery">
+
+      <figure><img src="gallery-1.jpeg" alt="Gallery photo 1"></figure>
+      <figure><img src="gallery-2.jpeg" alt="Gallery photo 2"></figure>
+      <figure><img src="gallery-3.jpeg" alt="Gallery photo 3"></figure>
+      <figure><img src="gallery-4.jpeg" alt="Gallery photo 4"></figure>
+      <figure><img src="gallery-5.jpeg" alt="Gallery photo 5"></figure>
+      <figure><img src="gallery-6.jpeg" alt="Gallery photo 6"></figure>
+      <figure><img src="gallery-7.jpeg" alt="Gallery photo 7"></figure>
+      <figure><img src="gallery-8.jpeg" alt="Gallery photo 8"></figure>
+      <figure><img src="gallery-9.jpeg" alt="Gallery photo 9"></figure>
+      <figure><img src="gallery-10.jpeg" alt="Gallery photo 10"></figure>
+      <figure><img src="gallery-11.jpeg" alt="Gallery photo 11"></figure>
+      <figure><img src="gallery-12.jpeg" alt="Gallery photo 12"></figure>
+      <figure><img src="gallery-13.jpeg" alt="Gallery photo 13"></figure>
+      <figure><img src="gallery-14.jpeg" alt="Gallery photo 14"></figure>
+      <figure><img src="gallery-15.jpeg" alt="Gallery photo 15"></figure>
+      <figure><img src="gallery-16.jpeg" alt="Gallery photo 16"></figure>
+      <figure><img src="gallery-17.jpeg" alt="Gallery photo 17"></figure>
+      <figure><img src="gallery-18.jpeg" alt="Gallery photo 18"></figure>
+      <figure><img src="gallery-19.jpeg" alt="Gallery photo 19"></figure>
+      <figure><img src="gallery-20.jpeg" alt="Gallery photo 20"></figure>
+      <figure><img src="gallery-21.jpeg" alt="Gallery photo 21"></figure>
+      <figure><img src="gallery-22.jpeg" alt="Gallery photo 22"></figure>
+      <figure><img src="gallery-23.jpeg" alt="Gallery photo 23"></figure>
+      <figure><img src="gallery-24.jpeg" alt="Gallery photo 24"></figure>
+
+    </div>
+  </section>
+
+  <!-- LATEST WORK -->
+  <section id="reel">
+    <h2 style="margin-bottom: 0;">Latest Work</h2>
+    <p style="margin-top: 0; margin-bottom: 0.5rem;"><em>A Day in the Life of Marion Greene</em> (2024)</p>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/dsdJjE4ORy8"
+        title="A Day in the Life of Marion Greene"
+        frameborder="0"
+        allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="resume-link-box">
+      <div>
+        <strong>Darren "JJ" Jenkins-Johnston — Actor Resume</strong>
+      </div>
+      <a href="Darren_JJ_Jenkins-Johnston_Acting_Resume.pdf" download role="button">Download Resume</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- CONTACT -->
+<section id="contact" aria-label="Contact">
+  <div class="container">
+    <article>
+      <hgroup>
+        <h2>Contact</h2>
+        <h3>For casting, collaborations, and bookings</h3>
+      </hgroup>
+      <p>Reach out directly at <a href="mailto:djj.inquiries@gmail.com">djj.inquiries@gmail.com</a> or use the form below.</p>
+      <form class="grid" action="https://formspree.io/f/mqeyqzlv" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <button type="submit">Send Message</button>
+      </form>
+    </article>
+  </div>
+</section>
+
+<footer class="container">
+  <small>
+    © 2026 Darren "JJ" Jenkins-Johnston • Actor Portfolio
+  </small>
+</footer>
+
+</body>
+
+</html>
